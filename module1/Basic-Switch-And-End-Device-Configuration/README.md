@@ -137,13 +137,14 @@ g. Save the configuration file to avoid loss if the switch is powered down
 
 **Screenshot: Completed Configuration**
 
-![image]("C:\Users\clasp\Desktop\CCNA1-Projects\module1\Basic Switch And End Device Configuration\screenshots\pic-1.jpg")
+![Completed Configuration](module1/screenshots/pic-1.jpg)
 
 **Screenshot: Command Logs**
 
-![image1]("C:\Users\clasp\Desktop\CCNA1-Projects\module1\Basic Switch And End Device Configuration\screenshots\pic-2.jpg")
+![Command Logs 1](module1/screenshots/pic-2.jpg)
 
-![image2]("C:\Users\clasp\Desktop\CCNA1-Projects\module1\Basic Switch And End Device Configuration\screenshots\pic-3.jpg")
+![Command Logs 2](module1/screenshots/pic-3.jpg)
+
 
 
 
@@ -151,5 +152,4 @@ g. Save the configuration file to avoid loss if the switch is powered down
 
 You can download and open the Packet Tracer simulation file for this module using the link below:
 
-[Download Module1 Packet Tracer File](module1/your-packet-tracer-file.pkt)
-"C:\Users\clasp\Desktop\CCNA1-Projects\module1\Basic Switch And End Device Configuration\Packet Tracer File\2.5.5-packet-tracer---configure-initial-switch-settings.pkz"
+[Download Module1 Packet Tracer File](module1\Basic-Switch-And-End-Device-Configuration\Packet-Tracer-File\2.5.5-packet-tracer---configure-initial-switch-settings.pkz)
