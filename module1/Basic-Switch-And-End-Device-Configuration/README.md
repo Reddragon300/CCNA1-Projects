@@ -137,13 +137,13 @@ g. Save the configuration file to avoid loss if the switch is powered down
 
 **Screenshot: Completed Configuration**
 
-![Completed Configuration](module1/screenshots/pic-1.jpg)
+![Completed Configuration](screenshots/pic-1.jpg)
 
 **Screenshot: Command Logs**
 
-![Command Logs 1](module1/screenshots/pic-2.jpg)
+![Command Logs 1](screenshots/pic-2.jpg)
 
-![Command Logs 2](module1/screenshots/pic-3.jpg)
+![Command Logs 2](screenshots/pic-3.jpg)
 
 
 
@@ -152,4 +152,4 @@ g. Save the configuration file to avoid loss if the switch is powered down
 
 You can download and open the Packet Tracer simulation file for this module using the link below:
 
-[Download Module1 Packet Tracer File](module1\Basic-Switch-And-End-Device-Configuration\Packet-Tracer-File\2.5.5-packet-tracer---configure-initial-switch-settings.pkz)
+[Download Module1 Packet Tracer File](Packet-Tracer-File\2.5.5-packet-tracer---configure-initial-switch-settings.pkz)
