@@ -255,3 +255,6 @@ Port 53 DNS Layer 4 DST Port.
 You can download and open the Packet Tracer simulation file for this module using the link below:
 
 [Download Module1 Packet Tracer File](files\3.5.5-packet-tracer---investigate-the-tcp-ip-and-osi-models-in-action(1).pka)
+
+[Download PDF](files/answers.pdf)
+
