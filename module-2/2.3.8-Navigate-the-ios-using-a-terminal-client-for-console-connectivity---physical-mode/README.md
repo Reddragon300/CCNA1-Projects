@@ -28,15 +28,27 @@ B.     Right click the 2960 switch and select Inspect Front. Use the zoom tool t
 
 C.     Click the X to close the Inspect Front view.
 
+**Screenshot: 2960 Switch**
+
+![Switch-Front](screenshots/1.png)
+
 D.     Right click the 2960 switch and select Inspect Rear. Use the zoom tool to get a better view. Notice that there is a CONSOLE port for connecting a rollover cable to a PC.
 
 E.     Click the X to close the Inspect Rear View.
+
+**Screenshot: 2960 Switch**
+
+![Switch-Rear](screenshots/2.png)
 
 ### Step 2: Install and investigate the PC.
 
 A.     Click and drag the PC to the Table.
 
 B.     Right click the PC and select Inspect Front. Click the red power button to turn on the PC. You should now see a green light on the front of the PC. At the bottom of the PC, notice that there is a Fast Ethernet interface. Next to it is an RS 232 port for connecting a rollover cable. Below these are two USB ports that can also be used for console access.
+
+**Screenshot: Install PC**
+
+![PC](screenshots/3.png)
 
 ### Step 3: Connect the switch and PC using a rollover console cable.
 
@@ -47,6 +59,10 @@ B.     On the PC, click the R2 232 port.
 C.     Right click the 2960 switch and choose Inspect Rear.
 
 D.     Click the CONSOLE port to connect the rollover console cable.
+
+**Screenshot: Switch & PC Connection**
+
+![Switch/PC](screenshots/4.png)
 
 ### Step 4: Configure the Packet Tracer Terminal program to establish a console session with the switch.
 
@@ -154,6 +170,12 @@ Switch# show clock
 Switch#
 ```
 
+**Screenshot: Show Clock Command**
+
+![Clock](screenshots/9.png)
+
+
+
 Close Configuration Window
 
 ## Part 3: Access a Cisco Router Using a Mini-USB Console Cable
@@ -167,6 +189,10 @@ B.     Right click the 4321 router and select Inspect Front. Use the zoom tool t
 
 C.     Click the X to close the Inspect Front view.
 
+**Screenshot: Cisco Router Front**
+
+![Router](screenshots/5.png)
+
 ### Step 2: Install and investigate the Laptop.
 
 A.     Click and drag the Laptop to the Table.
@@ -175,6 +201,10 @@ B.     Right click the Laptop and select Inspect Front. Click the power button o
 
 C.     Click the X to close the Inspect Front view.
 
+**Screenshot: Install Laptop**
+
+![Laptop](screenshots/6.png)
+
 ### Step 3: Connect the router and laptop using a mini-USB cable.
 
 A.     On the Cable Pegboard, click a mini-USB cable.
@@ -182,6 +212,10 @@ A.     On the Cable Pegboard, click a mini-USB cable.
 B.     On the Laptop, click a mini-USB port.
 
 C.     Click the mini-USB port on the 4321 router. You may want to right click and select Inspect Front to get a closer view.
+
+**Screenshot: Connect Laptop And Router**
+
+![Laptop/Router](screenshots/7.png)
 
 ### Step 4: Configure the Packet Tracer Terminal program to establish a console session with the switch.
 
@@ -241,6 +275,10 @@ Router>
 
 Open Configuration Window
 
+**Screenshot: Final Configuration**
+
+![Switch](screenshots/8.png)
+
 ## Reflection Question
 
 ### 1.     How do you prevent unauthorized personnel from accessing the Cisco device through the console port?
@@ -262,3 +300,10 @@ It's worth noting that while Cisco routers don't usually have mini-USB console p
 
 So, the choice between serial and USB console connections depends on factors such as the availability of the appropriate ports on your devices and your computer, and whether your Cisco router has a mini-USB console port.
 ```
+
+
+**Packet Tracer File:**
+
+You can download and open the Packet Tracer simulation file for this module using the link below:
+
+[Download Module1 Packet Tracer File](PacketTracer-Files\2.3.8-navigate-the-ios-using-a-terminal-client-for-console-connectivity---physical-mode.pka)
