@@ -103,6 +103,9 @@ Which commands are displayed?
 ```text
 telnet terminal
 ```
+**Screenshot:IOS Help**
+
+![Connection](screenshots/3.png)
 
 This type of help is known as context-sensitive help. It provides more information as the commands are expanded.
 
@@ -137,6 +140,9 @@ What displays after pressing the Tab key?
 ```text
 enable
 ```
+**Screenshot: privileged EXEC mode**
+
+![Priv-EXEC](screenshots/4.png)
 
 This is called command completion (or tab completion). When part of a command is typed, the Tab key can be used to complete the partial command. If the characters typed are enough to make the command unique, as in the case of the enable command, the remaining portion of the command is displayed.
 
@@ -145,7 +151,9 @@ This is called command completion (or tab completion). When part of a command is
 What would happen if you typed te<Tab> at the prompt?
 
 ```text
-When you type "te" and press Tab, the system realizes that there are multiple commands that start with "te." Since "te" isn't enough to tell the system which specific command you want, it won't automatically complete the command. Instead, it will show you all the possible commands that begin with "te" and wait for you to type more characters to uniquely identify the command you're looking for.
+When you type "te" and press Tab, the system realizes that there are multiple commands that start with "te."
+Since "te" isn't enough to tell the system which specific command you want, it won't automatically complete the command.
+Instead, it will show you all the possible commands that begin with "te" and wait for you to type more characters to uniquely identify the command you're looking for.
 ```
 
 C.     Enter the enable command and press ENTER.
@@ -206,6 +214,9 @@ S1(config)# exit
 
 S1#
 ```
+**Screenshot: Console**
+
+![Console](screenshots/5.png)
 
 ## Part 3: Set the Clock
 
@@ -302,6 +313,9 @@ G.     If you were not successful, try the following command to obtain the outpu
 ```console
 S1# clock set 15:00:00 31 Jan 2035
 ```
+**Screenshot: Clock Command**
+
+![Clock](screenshots/6.png)
 
 ### Step 2: Explore additional command messages.
 
@@ -361,3 +375,19 @@ S1#clock set 15:00:00 32
 ^
 % Invalid input detected at '^' marker.
 ```
+
+**Screenshot: Returned Information**
+
+![Ambiguous Command](screenshots/7.png)
+
+
+**Screenshot: Configuration**
+
+![Console](screenshots/8.png)
+
+**Packet Tracer File:**
+
+You can download and open the Packet Tracer simulation file for this module using the link below:
+
+[Download Module1 Packet Tracer File](PacketTracer-Files\2.3.7-navigate-the-ios.pkz)
+
