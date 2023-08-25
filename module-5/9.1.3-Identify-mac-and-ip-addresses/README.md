@@ -1,19 +1,11 @@
-[PDF](files\PT 9.1.3.docx)
+[Open Docx Document](files\PT 9.1.3.docx)
 
-<!-- insert just before the closing body tag </body> -->
-<script src='/path-to-your-javascript-file/pdfobject.js'></script>
-<script>
-PDFObject.embed("https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub");
-</script>
-## Embedded Spreadsheet
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZj7GenylDEglCsglInEADnFIzrR-ORquJAcIhVgw0NdtSz3ASDFXVLVYWuy6q5EzPNUWC5ecH4WAl/pubhtml?widget=true&amp;headers=false"></iframe>
 
-## Embedded PDF
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub" width="100%" height="600px"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub?embedded=true"></iframe>
 
 # 9.1.3 Packet Tracer - Identify MAC and IP Addresses
-
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPIUNPBgqTd_ZW7FN-0CgXf7qv0miEJm2cAnXnOp-ogHHycdkyBq0v_UqdGW82RQ/pubhtml?widget=true&amp;headers=false"></iframe>
 
 *** Screenshot Final Config ***
 ![Image](screenshots/001021.png)
