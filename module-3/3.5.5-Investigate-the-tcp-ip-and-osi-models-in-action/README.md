@@ -28,11 +28,16 @@ A.     Click the Simulation mode icon to switch from Realtime mode to Simulation
 B.     Select HTTP from the Event List Filters.
 
 ```text
-1)    HTTP may already be the only visible event. If necessary, click the Edit Filters button at the bottom of the simulation panel to display the available visible events. Toggle the Show All/None check box and notice how the check boxes switch from unchecked to checked or checked to unchecked, depending on the current state.
+1)    HTTP may already be the only visible event.
+If necessary, click the Edit Filters button at the bottom of the simulation panel to display the available visible events.
+Toggle the Show All/None check box and notice how the check boxes switch from unchecked to checked or checked to unchecked,
+depending on the current state.
 ```
 
 ```text
-2)    Click the Show All/None check box until all boxes are cleared and then select HTTP from the Misc tab of the Edit Filters window. Click the X in the upper right hand corner of the window to close the Edit Filters window. The Visible Events should now only display HTTP.
+2)    Click the Show All/None check box until all boxes are cleared, select HTTP from the Edit Filters window.
+Click the X in the upper right hand corner of the window to close the Edit Filters window.
+The Visible Events should now only display HTTP.
 ```
 
 **Screenshot: Event List**
@@ -48,11 +53,11 @@ A.     Click Web Client in the far left pane.
 
 B.     Click the Desktop tab and click the Web Browser icon to open it.
 
-C.     In the URL field, enter www.osi.local and click Go.
+C.     In the URL field, enter www.osi.local and click `GO`. 
 
-Because time in Simulation mode is event-driven, you must use the Capture/Forward button to display network events. The capture forward button is located at the left hand side of the blue band that is below the topology window. Of the three buttons there, it is the one on the right.
+Because time in Simulation mode is event-driven, you must use the `Capture/Forward` button to display network events. The capture forward button is located at the left hand side of the blue band that is below the topology window. Of the three buttons there, it is the one on the right.
 
-D.     Click Capture/Forward four times. There should be four events in the Event List.
+D.     Click `Capture/Forward` four times. There should be four events in the Event List.
 
 ![HTTP-Traffic](screenshots/http.png)
 
@@ -66,7 +71,7 @@ Yes, the website was connected.
 
 ![Image](screenshots/osilocal.png)
 
-E.     Click the first colored square box under the Event List > Type column. It may be necessary to expand the Simulation Panel or use the scrollbar directly below the Event List.
+E.     Click the first colored square box under the `Event List > Type`column. It may be necessary to expand the Simulation Panel or use the scrollbar directly below the Event List.
 
 The PDU Information at Device: Web Client window displays. In this window, there are only two tabs (OSI Model and Outbound PDU Details) because this is the start of the transmission. As more events are examined, there will be three tabs displayed, adding a tab for Inbound PDU Details. When an event is the last event in the stream of traffic, only the OSI Model and Inbound PDU Details tabs are displayed.
 
@@ -103,6 +108,7 @@ Layer 2: Ethernet II Header 0060.47CA.4DEE >> 0001.96A9.401D
 G.     Click the Outbound PDU Details tab.
 
 ![HTTP-Traffic](screenshots/2.png)
+
 Information listed under the PDU Formats is reflective of the layers within the TCP/IP model.
 
 Note: The information listed under the Ethernet II section of the Outbound PDU Details tab provides even more detailed information than is listed under Layer 2 on the OSI Model tab. The Outbound PDU Details provides more descriptive and detailed information. The values under DEST MAC and SRC MAC within the Ethernet II section of the PDU Details appear on the OSI Model tab under Layer 2, but are not identified as such.Questions:
@@ -125,7 +131,7 @@ Layer 4: TCP SOURCE PORT: 1025 DESTINATION PORT: 80(OSI Model Tab Does show = "1
 HOST = www.osi.local , Would be under Layer 7:HTTP on OSI Model tab.
 ```
 
-H.     Click the next colored square box under the Event List > Type column. Only Layer 1 is active (not grayed out). The device is moving the frame from the buffer and placing it on to the network.
+H.     Click the next colored square box under the `Event List > Type` column. Only Layer 1 is active (not grayed out). The device is moving the frame from the buffer and placing it on to the network.
 
 ![HTTP-Traffic](screenshots/h.png)
 
@@ -140,6 +146,7 @@ I.      Advance to the next HTTP Type box within the Event List and click the co
 Layer 4: TCP SRC & DST PORT Numbers. Layer 2: Ethernet Header numbers direction.
 ```
 ![Image](screenshots/II.png)
+
 J.      Click the Inbound and Outbound PDU Details tab. Review the PDU details.
 
 K.     Click the last colored square box under the Info column.
@@ -158,7 +165,7 @@ In Part 2 of this activity, you will use the Packet Tracer Simulation mode to vi
 
 A.     Close any open PDU information windows.
 
-B.     In the Event List Filters > Visible Events section, click Show All/None.
+B.     In the `Event List Filters > Visible Events` section, click `Show All/None`.
 
 ## Question: What additional Event Types are displayed?
 
@@ -184,13 +191,13 @@ E.     Click the last DNS Info colored square box in the event list.
 
 ![Image](screenshots/e.png)
 
-## Question: At which device was the PDU captured?
+## Question: At which device was the `PDU` captured?
 
 ```text
 Web Client : FastEthernet0 receives the frame. The device decapsulates the PDU from the Ethernet frame.
 ```
 
-## Question: What is the value listed next to ADDRESS: in the DNS ANSWER section of the Inbound PDU Details?
+## Question: What is the value listed next to `ADDRESS:` in the `DNS ANSWER` section of the Inbound PDU Details?
 
 ```text
 www.osi.local IP: 192.168.1.254 A DNS response contains a resolved IP address for the queried domain.
@@ -200,7 +207,7 @@ F.      Find the first HTTP event in the list and click the colored square box o
 
 ![Image](screenshots/f.png)
 
-## Question: In the numbered list directly below the In Layers and Out Layers, what is the information displayed under items 4 and 5?
+## Question: In the numbered list directly below the `In Layers` and `Out Layers`, what is the information displayed under items 4 and 5?
 
 ```text
 4. The TCP connection is successful.5. The device sets the connection state to ESTABLISHED.
