@@ -12,7 +12,7 @@ Download the same PKT file that is used in the video. Practice using the ping co
 
 **Screenshot: Configuration**
 
-![File](module1/screenshots/1.png)
+![File](screenshots/1.png)
 
 **Packet Tracer File:**
 
