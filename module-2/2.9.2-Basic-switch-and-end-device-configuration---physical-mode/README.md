@@ -249,10 +249,10 @@ N.     Record the interface status for the following interfaces.
 
 ```table
 Interface	S1 Status	S1 Protocol	S2 Status	S2 Protocol
-F0/1	Up	Up	Up	Up
-F0/6	Up	Up	Down	Down
-F0/18	Down	Down	Up	Up
-VLAN 1	Up	Up	Up	Up
+F0/1	           Up	            Up              Up	            Up
+F0/6	           Up	            Up	            Down      	    Down
+F0/18	           Down	            Down	     Up             Up
+VLAN 1	           Up	            Up	             Up	            Up
 ```
 O. From a PC, ping S1 and S2. The pings should be successful.
 
@@ -271,7 +271,8 @@ P. From a switch, ping PC-A and PC-B. The pings should be successful.
 ## Why are some FastEthernet ports on the switches up while others are down?
 
 ```text
-The FastEthernet ports are up when cables are connected to the ports unless they were manually shutdown by the administrators. Otherwise, the ports would be down.
+The FastEthernet ports are up when cables are connected to the ports,
+ unless they were manually shutdown by the administrators. Otherwise, the ports would be down.
 ```
 
 ## What could prevent a ping from being sent between the PCs?
