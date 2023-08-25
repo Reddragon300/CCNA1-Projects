@@ -1,11 +1,20 @@
-[PDF](files/Claspill_Brandon- PT 9.1.3 Answers.docx)
+[PDF](files\PT 9.1.3 Answers.pdf)
 
+<!-- insert just before the closing body tag </body> -->
+<script src='/path-to-your-javascript-file/pdfobject.js'></script>
+<script>
+PDFObject.embed("https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub");
+</script>
+## Embedded Spreadsheet
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZj7GenylDEglCsglInEADnFIzrR-ORquJAcIhVgw0NdtSz3ASDFXVLVYWuy6q5EzPNUWC5ecH4WAl/pubhtml?widget=true&amp;headers=false"></iframe>
 
+## Embedded PDF
 
-
-![info](files/Claspill_Brandon-PT 9.1.3 Info.xlsx)
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub" width="100%" height="600px"></iframe>
 
 # 9.1.3 Packet Tracer - Identify MAC and IP Addresses
+
+
 *** Screenshot Final Config ***
 ![Image](screenshots/001021.png)
 
