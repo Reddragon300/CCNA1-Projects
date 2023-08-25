@@ -1,11 +1,9 @@
-[Open Docx Document](files\PT 9.1.3.docx)
 
+[Open Embedded Content](9.1.3-PacketTracer.html)
 
-
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vR24VtsPkZf4VB_-Q-sHWpWQqkFp0rvhjrzQQyByrdhlJVMshzjfWNM9gQ6u9uGfA/pub?embedded=true"></iframe>
 
 # 9.1.3 Packet Tracer - Identify MAC and IP Addresses
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPIUNPBgqTd_ZW7FN-0CgXf7qv0miEJm2cAnXnOp-ogHHycdkyBq0v_UqdGW82RQ/pubhtml?widget=true&amp;headers=false"></iframe>
+
 
 *** Screenshot Final Config ***
 ![Image](screenshots/001021.png)
